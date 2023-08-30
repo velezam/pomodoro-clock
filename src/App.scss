@@ -8,15 +8,15 @@
   width: 100%;
 }
 
-html{
+html {
   text-align: center;
 }
 
-.title{
+.title {
   margin: auto;
 }
 
-.timer-control{
+.timer-control {
   width: 250px;
   margin: auto;
   display: flex;
@@ -26,12 +26,13 @@ html{
   column-gap: 10px;
   margin-bottom: 0.5em;
 
-  #break-label, #session-label{
+  #break-label,
+  #session-label {
     width: 100%;
   }
 }
 
-.timer-display{
+.timer-display {
   min-width: 250px;
   width: 250px;
   margin: auto;
@@ -45,7 +46,11 @@ html{
   border-radius: 30px;
   border: black 5px solid;
 
-  #time-left{
+  #time-left {
     font-size: 1.5em;
   }
+}
+
+.warning {
+  color: red;
 }
