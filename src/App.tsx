@@ -34,7 +34,7 @@ function App() {
 
   const audio = document.getElementById("beep") as HTMLAudioElement;
 
-  let timer = null;
+  let timer: ReturnType<typeof setInterval>;
 
   useEffect(() => {
     if (!isBreak) {
